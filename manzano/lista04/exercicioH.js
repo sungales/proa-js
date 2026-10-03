@@ -9,7 +9,7 @@ do {
 
     let area = largura * comprimento;
 
-    console.log(`Área do ${nome} é: ${area.toFixed(2)} m²`);
+    console.log(`Área do ${nome} é: ${area})} m²`);
 
     areaTotal += area;
 
