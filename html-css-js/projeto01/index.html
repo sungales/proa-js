@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>App de climatempo</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Digite o nome da cidade"
+          spellcheck="false"
+        />
+
+        <button type="button">
+          <img
+            src="../images/search.png"
+            alt="Pesquisar"
+          />
+        </button>
+      </div>
+
+      <div class="error">
+        <p>Cidade não encontrada.</p>
+      </div>
+
+      <div class="weather">
+        <img src="../images/clouds.png" class="weather-icon" alt="Clima" />
+
+        <h1 class="temp">--°C</h1>
+
+        <h2 class="city">-----</h2>
+
+        <div class="details">
+          <div class="col">
+            <img src="../images/humidity.png" alt="Umidade" />
+
+            <div>
+              <p class="humidity">--%</p>
+              <p>Umidade</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../images/icone_vento.png" alt="Vento" />
+
+            <div>
+              <p class="wind">-- km/h</p>
+              <p>Velocidade do vento</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
